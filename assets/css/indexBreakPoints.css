@@ -1,0 +1,55 @@
+ /** desktop **/
+
+ @media screen and (max-width: 980px) {
+    #Name{
+        margin-left: 6%;
+    }
+
+    #headerLinks{
+        margin-right: 3%;
+    }
+
+    .MainContent{
+        width: 700px;
+        margin-left: 6%;
+    }
+}
+
+/** tablet **/
+
+@media (max-width: 768px) {
+    #Name{
+        margin-left: 3%;
+    }
+
+    #headerLinks{
+        margin-right: 1%;
+    }
+
+    .MainContent{
+        width: 740px;
+        margin: auto;
+    }
+}
+
+
+/** Phone **/
+
+@media (max-width: 640px) {
+    #Name {
+        width: 100%;
+    }
+
+    #headerLinks{
+        width: 100%;
+    }
+
+    .MainContent{
+        width: 96%;
+    }
+
+    img {
+        width: 90%;
+        margin: auto;
+    }
+}

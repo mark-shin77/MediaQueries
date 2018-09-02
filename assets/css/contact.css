@@ -1,0 +1,205 @@
+/** Basic Portfolio **/
+/** Contact Page **/
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+    top:0;
+    height: 100px;    
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+body {
+    background: #ffffff;
+    margin: 0;
+    background: url(http://www.seekgif.com/thumb/white-ppt-background-30.jpg); 
+    background-size: 50%;   
+}
+
+#Name {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    float: left;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 17.5%;
+    font-weight: bold;
+}
+
+#headerLinks {
+    color: #777777;
+    margin-right: 17.5%;
+    background: #ffffff;
+    float: right;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding: 20px;
+}
+
+li.border {
+    border-right: 1px solid #dddddd;
+    padding: 20px;
+}
+
+a{
+    color:#777777;
+    text-decoration: none;
+}
+
+section {
+	background-color: #ffffff;
+	color: #777777;
+    border: 2px solid #dddddd;
+}
+
+h2{
+    border-bottom: 2px solid #cccccc;
+    width: 920px;
+    color: #4aaaa5;
+    line-height: 30px;
+}
+
+.MainContent {
+    overflow: auto;
+	height: 1000px;
+	width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+}
+
+form {
+    margin-left: 10px;
+    width: 900px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    background: #666666;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    clear: both;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+
+}
+
+ /** desktop **/
+
+ @media screen and (max-width: 980px) {
+    #Name{
+        margin-left: 6%;
+    }
+
+    #headerLinks{
+        margin-right: 3%;
+    }
+
+    .MainContent{
+        width: 700px;
+        margin-left: 6%;
+    }
+
+    h2{
+        width: 95%;
+    }
+
+    #textfield {
+        width: 74%;
+    }
+}
+
+/** tablet **/
+
+@media screen and (max-width: 768px) {
+    #Name{
+        margin-left: 3%;
+    }
+
+    #headerLinks{
+        margin-right: 1%;
+    }
+
+    .MainContent{
+        width: 700px;
+        margin: auto;
+    }
+        #name {
+        width: 65%;
+    }
+
+    #email {
+        width: 65%;
+        
+
+    }
+
+    #textfield {
+        width: 60%;
+
+
+    }
+
+    h2{
+        width: 96%
+    }
+}
+
+/** Phone **/
+
+@media screen and (max-width: 640px) {
+    #Name {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #headerLinks{
+        width: 75%;
+        margin-bottom: 10px;        
+    }
+
+    .MainContent{
+        width: 96%;
+    }
+
+    #name {
+        width: 55%;
+    }
+
+    #email {
+        width: 55%;
+    }
+
+    #textfield {
+        width: 55%;
+    }
+    
+    h2{
+        width: 95%
+    }
+}
